@@ -73,6 +73,16 @@ To debug the Java code in the project do the following:
 You can look in the following places for possible problem resolutions:
  - Console tab in the STS IDE
  - Problems tab in the STS IDE. Enable it(Window-->Show View --> Other --General -- Problems)
+ 
+ 
+### CREDITS: 
+These projects will build on parts of the fine work found in the following places:
+
+(https://github.com/raydeng83/lagoon/tree/master/backend)
+
+(https://github.com/codesandnotes/secure-rest-spring-tut)
+
+(https://spring.io/blog/2015/06/08/cors-support-in-spring-framework#filter-based-cors-support)
 
 License
 ----
