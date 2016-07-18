@@ -21,7 +21,6 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
-<!-- 		<jackson-version>2.7.5</jackson-version> -->
 	</properties>
 
 	<dependencies>
@@ -43,37 +42,19 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
-			
 		</dependency>
 		
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
-		
-
-<!-- 	  <dependency> -->
-<!--         <groupId>com.fasterxml.jackson.core</groupId> -->
-<!--         <artifactId>jackson-core</artifactId> -->
-<!--         <version>${jackson-version}</version> -->
-<!--     </dependency> -->
-<!--     <dependency> -->
-<!--         <groupId>com.fasterxml.jackson.core</groupId> -->
-<!--         <artifactId>jackson-databind</artifactId> -->
-<!--         <version>${jackson-version}</version> -->
-<!--     </dependency> -->
-		
-		
+				
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
 			<artifactId>jjwt</artifactId>
 			<version>0.6.0</version>
 		</dependency>
 	</dependencies>
-	
-	
-
-	
 	
 	<build>
 		<plugins>
@@ -83,6 +64,4 @@
 			</plugin>
 		</plugins>
 	</build>
-	
-
 </project>
